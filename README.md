@@ -34,7 +34,7 @@ The Python packages which are in use in this project are  `matplotlib`, `numpy`,
                                  |
                                  |
                                  |               
-                                 ----------> train and test 
+                                 --------------> train
                                                    |
                                             ------- -------
                                             |             |
