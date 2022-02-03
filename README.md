@@ -41,8 +41,8 @@ The Python packages which are in use in this project are  `matplotlib`, `numpy`,
                                             V             V
                                           images        labels
                                
-- Where the folder `images` contains original images in `.jpg`/`.png` format and the folder `labels` contains corresponding labels in `.csv` format. 
-  `Note:`The `.csv` file containing labels must have 'labels' keyword as the heading of the repective column.                                          
+- Where the folder `images` contains original images in `.jpg`/`.png` format and the folder `labels` contains corresponding labels in `.csv` format.   
+- `Note:`The `.csv` file containing labels must have 'labels' keyword as the heading of the repective column.                                          
                                           
                                        
 - ### Training model with Traditional Features :
