@@ -44,3 +44,21 @@ The Python packages which are in use in this project are `torch, matplotlib, num
 - Where the folder `images` contains original images in `.jpg`/`.png` format and the folder `labels` contains corresponding labels in `.csv` format. 
   `Note:`The `.csv` file containing labels must have 'labels' keyword as the heading of the repective column.                                          
                                           
+                                       
+## Training model with Traditional Features
+      -help
+
+      optional arguments:
+        -h, --help            show this help message and exit
+        -tr TR_PATH, --tr_path TR_PATH
+                              Path to the train data
+        -la LA_PATH, --la_path LA_PATH
+                              Path to the label data
+        -featr FEATR_TYPE, --featr_type FEATR_TYPE
+                              Type of feature selection
+        -model_type MODEL_TYPE, --model_type MODEL_TYPE
+                              Type of training model selection
+        
+   - Run the following for training and validation 
+  
+      `python main.py -tr data/train/images/ -la data/train/labels/label.csv -featr gabor  -model_type svm`
