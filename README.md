@@ -45,7 +45,7 @@ The Python packages which are in use in this project are `torch, matplotlib, num
   `Note:`The `.csv` file containing labels must have 'labels' keyword as the heading of the repective column.                                          
                                           
                                        
-- ### Training model with Traditional Features
+- ### Training model with Traditional Features :
       -help
 
       optional arguments:
@@ -59,6 +59,6 @@ The Python packages which are in use in this project are `torch, matplotlib, num
         -model_type MODEL_TYPE, --model_type MODEL_TYPE
                               Type of training model selection
         
--  ### Run the following for training and validation 
+-  ### Run the following for training and validation :
   
       `python main.py -tr data/train/images/ -la data/train/labels/label.csv -featr gabor  -model_type svm`
